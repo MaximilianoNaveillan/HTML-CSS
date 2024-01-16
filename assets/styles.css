@@ -1,0 +1,55 @@
+
+body {
+    /* background-image: url("bacground.jpg"); */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+section {
+    height: 100vh;
+}
+header > h1{
+    color:white;
+}
+.inicio > h1 {
+    color: #d10dd8;
+}
+
+.subtitle{
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight:900;
+    font-style:normal;
+    line-height: 35px;
+    color:#000000;
+    background-color: rgba(0,0,0, 0.3);
+   /*  opacity: 0.3; */
+}
+
+.contenedor{
+    background-color: red;
+    padding:10px 20px 30px 40px;
+
+}
+.contenido{
+    background-color: blue;
+    color:#fff;
+    
+}
+.div1{
+    /* margin:0 0 0 10px; */
+    margin-left: 10px;
+    margin-top: 10px;
+    border:1px solid black;
+}
+.div2{
+    margin-left: 20px;
+    margin-top: 10px;
+    border:1px solid black;
+}
+.div3{
+    margin: 10px 0 0 30px;
+    border:1px solid black;
+}
+
+/* para comentar shif + ALT + A */

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HackerMan el mejor programador">
+    <meta name="keywords" content="JAVA, JavaScript, HTML,Css">
+    <meta name="author" content="HackerMan">
+    <link rel="icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>HackerMan</title>
+</head>
+<body>
+    <!-- tu comentario
+    con salto de linea -->
+    <header style="height:300px">
+        <h1>HackerMan</h1>
+            <p class="subtitle">el mejor desarrollador de todos los tiempos</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Mis proyectos</a></li>
+                <li><a href="#contacto">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <section class="inicio" id="inicio">
+            <img src="assets/hackerman-2.jpg" alt="hackerman" height="400px" >
+            <h1>Hola!</h1>
+            <p>Soy un desarrollador Full Stack</p>
+            <div class="contenedor">
+                <div class="contenido">Holi!</div>
+            </div>
+            <div class="div1">😀</div>
+            <div class="div2">😀</div>
+            <div class="div3">😀</div>
+        </section>
+        <section  id="proyectos">
+            <h2>
+                Habilidades técnicas
+            </h2>
+            <ol>
+                <li>Backend</li>
+                <li>Java</li>
+                <li>FronEnd</li>
+            </ol>
+        </section>
+        <section  id="contacto">
+
+            <form action="/formulario" method="POST">
+
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre" placeholder="ingresa tu nombre completo" required>
+                <label for="password" >password</label>
+                <input id="password" type="password" name="password" placeholder="contraseña">
+                <br>
+                <input id="robot" type="checkbox" name="robot" required> <label for="robot">¿ Es usted un robot ?</label>
+                                
+                <br>
+                <input type="radio" name="sexo" value="masculino" id="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" value="femenino" id="femenino" required>
+                <label for="femenino">Femenino</label>  
+                 <br>   
+                <input type="file">
+                
+                <button type="submit">Enviar</button>
+            
+            </form>
+
+            <br><br><br>
+            <table style="border:1px solid black">
+                <thead >
+                    <tr>
+                        <th style="border:1px solid black" colspan="4">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere ducimus totam, minima dolor animi natus at corporis nobis ut veniamvoluptatesnequehicdictavitaeevenietnostrumomnisnam 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border-bottom:1px solid black">Dato 1</td>
+                        <td style="border-bottom:1px solid black">Dato 2</td>
+                        <td style="border-bottom:1px solid black">Dato 3</td>
+                        <td style="border-bottom:1px solid black">Dato 4</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 5</td>
+                        <td>Dato 6</td>
+                        <td>Dato 7</td>
+                        <td>Dato 6</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+            <br><br><br>
+            <a href="mailto: hackerman@gmail.com">Contactame</a>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer style="height:60px;">
+        <p>&copy; 2024 Nombre del Sitio. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
